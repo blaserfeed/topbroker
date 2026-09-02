@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+sqladmin
+psycopg2-binary
+pydantic
+wtforms
+pymysql
