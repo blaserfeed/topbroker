@@ -22,7 +22,7 @@ from fastapi import APIRouter
 
 # ЗАМЕНИ ЭТУ СТРОКУ на свои данные из Supabase (Settings -> Database -> Connection string -> URI)
 # Пример: postgresql+psycopg2://postgres:[YOUR-PASSWORD]@db.[YOUR-PROJECT-REF].supabase.co:5432/postgres
-DATABASE_URL = "postgresql+psycopg2://postgres:Topbroker_123@db.yfidjtjkvdroknxtezwq.supabase.co:5432/postgres"
+DATABASE_URL = "postgresql+psycopg2://postgres.yfidjtjkvdroknxtezwq:Topbroker_123@aws-0-ap-northeast-1.pooler.supabase.com:5432/postgres"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
